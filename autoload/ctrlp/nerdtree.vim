@@ -23,7 +23,7 @@ function! ctrlp#nerdtree#init()
     if exists('g:ctrlp_nerdtree_show_hidden') && g:ctrlp_nerdtree_show_hidden == 1
         let cmd = "find -type d"
     else
-        let cmd = "find -type d \\( -path '*/.*' -prune -o -print \\)"
+        let cmd = "find -type d \\( -path '*/.*' -prune -o -print \\) | sed -e s@./@@"
     endif
     let paths = reverse(split(system(cmd),"\n"))
     return paths
