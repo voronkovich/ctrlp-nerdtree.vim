@@ -18,6 +18,12 @@ to your .vimrc
 
 ## Installation
 
+If you use the MacOS you will need to install a `findutils` package:
+
+```sh
+brew install findutils
+```
+
 ### Using [pathogen](https://github.com/tpope/vim-pathogen)
 
 ``` sh
