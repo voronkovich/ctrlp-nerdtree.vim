@@ -35,7 +35,7 @@ git clone git://github.com/voronkovich/ctrlp-nerdtree.vim ~/.vim/bundle/ctrlp-ne
 Add to vimrc:
 
 ``` vim
-Bundle 'voronkovich/ctrlp-nerdtree.vim'
+Plugin 'voronkovich/ctrlp-nerdtree.vim'
 ```
 
 ## License
