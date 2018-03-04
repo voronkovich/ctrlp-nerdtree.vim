@@ -1,6 +1,6 @@
 # ctrlp-nerdtree
 
-This CtrlP extension allows you to open NERDTree in specified directory. Works only in Unix-like operating systems.
+This [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) extension allows you to open the [NERDTree](https://github.com/scrooloose/nerdtree) in a specified directory. It works only in Unix-like operating systems.
 
 ## How to use
 
@@ -8,7 +8,7 @@ This CtrlP extension allows you to open NERDTree in specified directory. Works o
 :CtrlPNerdTree
 ```
 
-By default plugin ignore hidden directories. You change this by adding:
+By default the plugin ignores hidden directories. You can change this by adding:
 
 ```vim
 let g:ctrlp_nerdtree_show_hidden = 1
